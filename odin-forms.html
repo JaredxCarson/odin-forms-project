@@ -7,66 +7,68 @@
         <link rel="stylesheet" href="odin-forms.css">
     </head>
     <body>
-        <div class="background"></div> <!--set background to black-->
-        <div class="container"> <!--container for everything except black background-->
-
-            <div id="heading-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+        <!--Left Side Of Page-->
+        <div class="left-side-container">
+            <div class="background-image">
+                <img src="city-skyline-background.jpg" alt="Waranont (Joe)'s photo from Unsplash">
             </div>
-
-            <div class="forms-container">
-                <div>
-                    <form action="#" method="post">
-                        <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name">
-                    </form>
-                </div>
-                <div>
-                    <form action="#" method="post">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name">
-                    </form>
-                </div>
-                <div>
-                    <form action="#" method="post">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="email@example.com">
-                    </form>
-                </div>
-                <div>
-                    <form action="#" method="post">
-                        <label for="phone_number">Phone Number</label>
-                        <input type="text" name="phone_number" id="phone_number" placeholder="(222)-333-4455">
-                    </form>
-                </div>
-                <div>
-                    <form action="#" method="post">
-                        <label for="username">Username</label>
-                        <input type="text" name="username" id="username">
-                    </form>
-                </div>
-                <div>
-                    <form action="#" method="post">
-                        <label for="password">Password</label>
-                        <input type="text" name="password" id="password" placeholder="xxxxxxxx">
-                    </form>
-                </div>
+            <div class="dark-overlay"></div>
+            <div class="odin-logo">
+                <img src="odin-logo.jpg" alt="odin project logo">
             </div>
-
-            <div class="left-side-container"><!--container for images (left side of page)-->
-                <div class="background-image">
-                    <img src="city-skyline-background.jpg" alt="Waranont (Joe)'s photo from Unsplash">
+            <div class="credits">Photo by Waranont (Joe) on <a href="https://unsplash.com/@tricell1991" target="_blank" rel="noopener noreferrer">Unsplash</a></div>
+        </div>
+        <!--Right Side Of Page-->
+        <div class="right-side-container"> 
+            <!--Top Right Container-->
+            <div class="top-right-container">
+                <div id="heading-text">
+                    <h2>This Is Not A Real Online Service</h2>
+                    <p>You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</b> to get started!</p>
                 </div>
-
-                <div class="dark-overlay"></div>
-                <div class="odin-logo">
-                    <img src="odin-logo.jpg" alt="odin project logo">
-                </div>
-                <div class="credits">Photo by Waranont (Joe) on <a href="https://unsplash.com/@tricell1991" target="_blank" rel="noopener noreferrer">Unsplash</a></div>
+                <form class="forms-container">
+                    <div>
+                        <form action="#" method="post">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="#" method="post">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="#" method="post">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="email@example.com">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="#" method="post">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" name="phone_number" id="phone_number" placeholder="(222)-333-4455">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="#" method="post">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="#" method="post">
+                            <label for="password">Password</label>
+                            <input type="text" name="password" id="password" placeholder="xxxxxxxx">
+                        </form>
+                    </div>
+                </form>
             </div>
-
-            <div class="bottom-div"><!--Bottom Div-->
+            <!--Bottom Right Container-->
+            <div class="bottom-right-container">
                 <button class="button">Create Account</button>
-                <div class="log-in">Already have an account? <a href="#" onlick="return false;">Log in</a></div>
+                <p class="log-in">Already have an account? <a href="#" onlick="return false;">Log in</a></p>
                 <!--The link will not work because there is not sending the user anywhere (It's just for show)-->
             </div>
         </div>
