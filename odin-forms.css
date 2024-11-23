@@ -86,12 +86,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 32px; 
+    padding: 32px;
     background-color: white;
 }
 
 .top-right-container {
     flex: 1;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 120px;
 }
 
 #heading-text {
